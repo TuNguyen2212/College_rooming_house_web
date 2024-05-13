@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share your idea - Nhà trọ sinh viên</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link rel="stylesheet" href="resources/css/submit.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="nav container">
+            <!--LOGO-->
+            <a href="blog-home.html" class="logo"></a>
+            <!--LIST OF FUNCTION-->
+            <div class="link-container">
+                <a href="blog-about.html" class="link">About</a>
+                <a href="blog-submit.html" class="link" id="submit">Contribute</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-text">
+            <h2 class="banner-title">Create Osdae with us!</h2>
+            <span class="banner-subtitle">Share your idea with more people here.</span>
+        </div>
+        <!--
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn"><img src="img/upload.png" alt="upload banner"></label>
+        -->
+    </section>
+
+    <section class="blog">
+        <textarea type="text" class="title" placeholder="post title..."></textarea>
+        <textarea type="text" class="category" placeholder="category..."></textarea>
+        <textarea type="text" class="article" placeholder="start writing here..."></textarea>
+    </section>
+
+    <section class="option">
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn">Upload image</label>
+        <div class="btn">Publish</div>
+    </section>
+
+
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!--js scripts link-->
+    <script src="resources/js/scripts.js"></script>
+</body>
+
+</html>

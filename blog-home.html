@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà trọ sinh viên</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="nav container">
+            <!--LOGO-->
+            <a href="blog-home.html" class="logo"></a>
+            <!--LIST OF FUNCTION-->
+            <div class="link-container">
+                <a href="blog-about.html" class="link">About</a>
+                <a href="blog-submit.html" class="link" id="submit">Contribute</a>
+            </div>
+        </div>
+    </header>
+
+    <!--HOME-->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Nhà trọ sinh viên</h2>
+            <span class="home-subtitle">Thông tin về những nhà trọ phù hợp với nhu cầu
+                của mọi sinh viên
+            </span>
+        </div>
+    </section>
+
+    <!--POST FILTER-->
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">Tất cả</span>
+        <span class="filter-item" data-filter="design">Phòng trọ 1 người</span>
+        <span class="filter-item" data-filter="tech">Phòng trọ ở ghép 2-4 người</span>
+        
+
+    </div>
+
+    <!--POST-->
+    <section class="post container">
+        <!--POST BOX 1-->
+        <div class="post-box design">
+            <img src="resources/img/post-1.jpg" alt="" class="post-img">
+            <h2 class="category">Phòng trọ 1 người</h2>
+            <a href="blog-post-1.html" class="post-title">
+                Nhà trọ Sao Kim
+            </a>
+            <span class="post-date">05 April 2023</span>
+            <p class="post-description">
+                Nhà trọ Sao Kim là ...
+            </p>
+
+        </div>
+
+        <!--POST BOX 2-->
+        <div class="post-box tech">
+            <img src="resources/img/post-2.jpg" alt="" class="post-img">
+            <h2 class="category">Phòng trọ ở ghép 2-4 người</h2>
+            <a href="blog-post-2.html" class="post-title">
+                Nhà trọ Mai Anh
+            </a>
+            <span class="post-date">05 April 2023</span>
+            <p class="post-description">
+                Nhà trọ Mai Anh là ...
+            </p>
+        </div>
+
+
+        
+    </section>
+
+    <!--FOOTER-->
+    <div class="footer container">
+        <p>&#169 , 2024</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+
+    <!--jquery link-->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!--js scripts link-->
+    <script src="resources/js/scripts.js"></script>
+</body>
+
+</html>
