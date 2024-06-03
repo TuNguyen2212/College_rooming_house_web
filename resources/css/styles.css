@@ -54,6 +54,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 200;
+    background: var(--bg-color);
 }
 
 header.shadow {
@@ -70,7 +71,8 @@ header.shadow .logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 0;
+    padding: 18px 0px 8px 0px;
+    max-width: 1268px;
 }
 
 .links-container{
@@ -101,7 +103,11 @@ header.shadow .logo {
     color: var(--second-color);
 }
 
-
+.logo img{
+    box-sizing: content-box;
+    width: 100px;
+    height: 75px;
+}
 /*-----HOME-----*/
 .home {
     width: 100%;
